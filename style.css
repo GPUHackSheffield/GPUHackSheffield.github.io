@@ -1,3 +1,7 @@
 ---
 layout: style
 ---
+
+ol, ul{
+  text-align: left;  
+}

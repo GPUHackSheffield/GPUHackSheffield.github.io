@@ -1,1 +1,14 @@
-_site
+_site/
+.sass-cache/
+.jekyll-metadata
+
+registration.html
+programme.html
+projects.html
+halifaxdesc.html
+venue.html
+committee.html
+
+
+_programmes/
+_committee/

@@ -1,3 +1,170 @@
 ---
-layout: default
+layout: landing
 ---
+{% assign latest_landing = site.landings | last %}
+<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<div class="title">
+			<!--<a href="{{ site.baseurl }}/index.html"><img src="images/logos/halifaxhall.png" alt="GPUhackathon logo" /></a>-->
+			<h2>
+				{{ site.title }}
+			</h2>
+		</div>
+		<p>August 19th - 23th, 2019</p>
+		<h3><a href="https://twitter.com/gpuhack">@gpuhack</a></h3>
+		<!-- <div class="logos-strip">
+			<ul class="logos major">
+				<li>
+					<div class="elixir-logo">
+						<span class="label">Lorem</span>
+					</div>
+				</li>
+				<li>
+					<div class="elixir-logo-france">
+						<span class="label">Lorem</span>
+					</div>
+				</li>
+				<li>
+					<div class="nbdc-logo">
+						<span class="label">Lorem</span>
+					</div>
+				</li>
+				<li>
+					<div class="dbcls-logo">
+						<span class="label">Lorem</span>
+					</div>
+				</li>
+				<li>
+					<div class="cost-logo">
+						<span class="label">Lorem</span>
+					</div>
+				</li>
+				<li>
+					<div class="pistoia-logo">
+						<span class="label">Lorem</span>
+					</div>
+				</li>					
+			</ul>
+		</div> -->
+		<ul class="actions">
+			<li>
+				<!-- <a href="{{ site.baseurl }}/registration" class="button special">Register</a> -->
+				<!--<p>Registration will be open on May 11th</p>-->
+			</li>		
+		</ul>
+		<p><b>Call for proposals now open</b></p>
+		<a href="{{ site.baseurl }}/index.html#landing-processprop" class="button special">Submit a proposal</a>		
+	</div>
+	<a href="#landing-background" class="more scrolly">Learn More</a>
+</section>
+
+<!-- One -->
+<section id="landing-background" class="wrapper style2 special">
+	<div class="inner">
+		<header class="major">
+		<div class="content">
+					<p>  The University of Sheffield (Sheffield, United Kingdom) is pleased to announce that team applications for the Sheffield GPU Hackathon are now open. This event will take place August 19-23, 2019 at <a href="https://www.halifaxhall.co.uk/">Halifax Hall</a> at Sheffield, United Kingdom. Prior GPU experience is not required, as those selected will be paired with experienced mentors who will teach them how to leverage accelerated computing in their own applications or further optimize their codes.</p>
+
+			</div>
+		</header>
+	</div>
+</section>
+
+<!-- Two -->
+<section id="landing-scope" class="wrapper alt style2">
+	<section class="spotlight">
+		<div class="image">
+			<img src="images/gpu_hack.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>About</h2>
+			<p>General-purpose Graphics Processing Units (GPGPUs) potentially offer exceptionally high memory bandwidth and performance for a wide range of applications. A challenge in utilizing such accelerators has been learning how to program them. These hackathons are intended to help overcome this challenge for new GPU programmers and also to help existing GPU programmers to further optimize their applications - a great opportunity for graduate students and postdocs. Any and all GPU programming paradigms are welcome.</p>
+
+			<p>There will be intensive mentoring during this 5-day hands-on workshop, with the goal that the teams leave with applications running on GPUs, or at least with a clear roadmap of how to get there. Each team will be assigned mentors who have extensive experience in programming GPUs from universities,  and <a href="http://www.nvidia.com/page/home.html">NVIDIA</a> and are knowledgeable in developing GPU-capable compilers . Programming experience with CUDA is not a requirement.</p>
+		</div>
+	</section>
+	<section id="landing-apply" class="spotlight">
+		<div class="image">
+			<img src="images/hacking.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>Who can apply</h2>
+			<ul>
+			<p>We are looking for teams of 3-5 developers, ideally graduate students and/or postdocs, with a scalable application to port to (or optimize on) the GPU accelerators available at the University of Sheffield. </p>
+			
+			<p>Collectively, the team should know the application intimately. </p>
+			
+			<!--If the application is to address a suite of applications, no more than two applications per team is allowed and a minimum of two people per application must attend.-->
+			</ul>
+		</div>
+	</section>
+	<section id="landing-funding" class="spotlight">
+		<div class="image">
+			<img src="images/venue.jpg" alt="" />
+		</div>
+		<div class="content">
+			<h2>Expenses and funding</h2>
+			<h4>Travel and accommodation</h4>
+			<p>Registration for the GPUHackathon is free and includes all meals and refreshments during the meeting when accommodation is booked at the venue.</p>
+			<h4>Registration is not open yet.</h4>
+			<ul type="I">
+				<li>Participants nominated to work on selected  projects will be invited to register only (approx 50 participants)</li>
+			</ul>
+			<p>Participants <b>are expected to cover their accommodation and travel</b>. Staying at the venue is highly preferred, since it maximises networking with all participants and gets the most out of the hacking. </p>
+			<h2>Important Dates</h2>
+			<ul type="I">
+		<li>1st of April 2019 – Open Call for the GPU Hackathon 2019</li>
+		<li>15th of June 2019 – End of the Open Call</li>
+		<li>1st of July 2019 – Notification of admittance and Open Registration</li>
+		<li>19th of August 2019 – Event Welcome!</li>
+		</ul>
+
+			<!--<a href="{{ site.baseurl }}/venue.html" class="button fit">More information</a>-->
+		</div>
+	</section>
+</section>
+
+
+	
+<!-- Three -->
+<section id="landing-processprop" class="wrapper style4"">
+	<div class="inner">
+		<header class="major">
+			<h2>Call for proposals </h2>
+				<p>The call for hacking projects is open from <b>1st April </b>and will close on <b>15th June</b> 2019. The
+					project leader will submit through the <a href="https://www.olcf.ornl.gov/gpu-hackathons/#tw-tab-content-3-1">OAK RIDGE website</a></p>
+
+				<a href="https://www.olcf.ornl.gov/gpu-hackathons/#tw-tab-content-3-1" class="button fit special">Apply now</a>
+				<ul>	
+
+		</header>
+	</div>
+</section>
+<section id="landing-venue" class="wrapper alt style2">
+	<section class="spotlight">
+		<div class="google-maps">
+			 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.4253921433974!2d-1.5075704841606021!3d53.371437779984326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879820d99e8825f%3A0xf9c40b19aa78c992!2sHalifax+Hall%2C+Endcliffe+Vale+Rd%2C+Sheffield+S10+3ER!5e0!3m2!1sen!2suk!4v1554054503403!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="content">
+			<h2>Venue</h2>
+			<p><a href="https://www.halifaxhall.co.uk/">Halifax Hall Hotel</a>
+				<br /> Endcliffe Vale Rd, Sheffield, United Kingdom S10 3ER</p>
+			<!--<a href="/halifaxdesc" class="button small fit">Halifax Hall</a>-->
+		</div>
+	</section>
+</section>
+<!-- CTA -->
+<section id="cta" class="wrapper style4">
+	<div class="inner">
+		<header>
+			<h2>Registration</h2>
+			<p>Registration will open on July 1st</p>
+		</header>
+		<ul class="actions vertical">
+			<li>
+				<a href="http://gpuhack.shef.ac.uk" class="button fit">Register</a>
+			</li>
+		</ul>
+	</div>
+</section>

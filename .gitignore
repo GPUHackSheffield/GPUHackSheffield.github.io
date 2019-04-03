@@ -12,3 +12,7 @@ committee.html
 
 _programmes/
 _committee/
+
+vendor/
+Gemfile.lock
+.bundle/

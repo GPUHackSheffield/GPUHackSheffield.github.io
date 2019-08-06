@@ -2,12 +2,12 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-programme.html
+
 projects.html
 committee.html
 
 
-_programmes/
+
 _committee/
 
 vendor/
